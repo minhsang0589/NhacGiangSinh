@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music"
+    android:id="@+id/manhinh2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/trang"
+        android:textSize="25dp"
+        android:layout_marginBottom="50dp"/>
+    <ImageView
+        android:id="@+id/imvdk"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/dangkhoa22"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/lvdanhsach"
+        android:layout_width="373dp"
+        android:layout_height="437dp"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+    </ListView>
+
+</LinearLayout>
