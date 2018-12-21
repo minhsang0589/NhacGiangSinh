@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         anhxa();
         manhinh.setBackgroundResource(R.mipmap.hinhnen12);
-        song=MediaPlayer.create(getApplicationContext(),R.raw.nuademkhanhuatuanvutamlhuonganh);
+//        int s=R.raw.demkyniemthaichaunhuquynh;
+        song=MediaPlayer.create(getApplicationContext(),R.raw.wewishyouamerrychristmas);
         song.start();
         f = AnimationUtils.loadAnimation(this,R.anim.fadee);
         f.reset();
